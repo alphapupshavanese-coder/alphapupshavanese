@@ -5,6 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alphapups Havanese – Pedigree Havanese Bred in Our Home</title>
   <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .hero-full {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      min-height: 600px;
+      overflow: hidden;
+    }
+    .hero-full img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.0) 100%);
+      display: flex;
+      align-items: center;
+    }
+    .hero-overlay-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 3rem;
+      width: 100%;
+    }
+    .hero-overlay-content .hero-eyebrow {
+      color: rgba(255,255,255,0.85);
+    }
+    .hero-overlay-content h1 {
+      font-family: 'Tahoma','Geneva',system-ui,sans-serif;
+      font-size: clamp(2.5rem,5vw,5rem);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 1.2rem;
+      max-width: 600px;
+    }
+    .hero-overlay-content .hero-body {
+      color: rgba(255,255,255,0.9);
+      font-size: 1.1rem;
+      max-width: 440px;
+      margin-bottom: 2rem;
+    }
+    @media(max-width:600px) {
+      .hero-full { height: 90vh; }
+      .hero-overlay-content { padding: 0 1.5rem; }
+      .hero-overlay-content h1 { font-size: 2.2rem; }
+    }
+  </style>
 </head>
 <body>
 <header>
@@ -22,16 +74,16 @@
   </nav>
 </header>
 <main>
-  <div class="hero">
-    <div class="hero-text">
-      <p class="hero-eyebrow">Pedigree Havanese</p>
-      <h1>Raised in Our Home</h1>
-      <p class="hero-body">Health tested Havanese bred with a focus on temperament, type and long-term health. Based in the UK.</p>
-      <a href="/puppies.html" class="btn">Waiting List</a>
-      <a href="/our-dogs.html" class="btn btn-outline">Meet Our Dogs</a>
-    </div>
-    <div class="hero-image">
-      <img src="/images/home/hero.jpg" alt="Alphapups Havanese" class="hero-img">
+  <div class="hero-full">
+    <img src="/images/home/hero.jpg" alt="Alphapups Havanese">
+    <div class="hero-overlay">
+      <div class="hero-overlay-content">
+        <p class="hero-eyebrow">Pedigree Havanese</p>
+        <h1>Raised in Our Home</h1>
+        <p class="hero-body">Health tested Havanese bred with a focus on temperament, type and long-term health. Based in the UK.</p>
+        <a href="/puppies.html" class="btn">Waiting List</a>
+        <a href="/our-dogs.html" class="btn btn-outline" style="color:#fff;border-color:#fff">Meet Our Dogs</a>
+      </div>
     </div>
   </div>
 
@@ -76,6 +128,16 @@
             <h3>Bobbi</h3>
             <p>AM CH That's Boy Wonder at Lake Michigan</p>
             <span class="tag">Stud (Leased)</span>
+          </div>
+        </a>
+        <a href="/dogs/katie.html" class="dog-card">
+          <div class="dog-card-wrap">
+            <img src="/images/katie/katie-hero.jpeg" class="dog-card-img" alt="Katie">
+          </div>
+          <div class="dog-card-info">
+            <h3>Katie</h3>
+            <p>Alphapups Dutches Daisy Pudding</p>
+            <span class="tag">Breeding Female</span>
           </div>
         </a>
       </div>
