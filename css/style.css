@@ -35,9 +35,9 @@ section{padding:5rem 0}
 .dogs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-bottom:3rem}
 .dog-card{text-decoration:none;color:inherit;display:block}
 .dog-card-wrap{overflow:hidden}
-.dog-card-img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;transition:transform .4s ease}
+.dog-card-img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .4s ease}
 .dog-card:hover .dog-card-img{transform:scale(1.03)}
-.dog-card-ph{width:100%;aspect-ratio:3/4;background:var(--warm);display:flex;align-items:center;justify-content:center;color:var(--mid);font-size:.8rem}
+.dog-card-ph{width:100%;aspect-ratio:4/3;background:var(--warm);display:flex;align-items:center;justify-content:center;color:var(--mid);font-size:.8rem}
 .dog-card-info{padding:.75rem 0}
 .dog-card-info h3{font-family:var(--sans);font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:.15rem}
 .dog-card-info p{font-size:.78rem;color:var(--muted);margin-bottom:.4rem}
