@@ -1,0 +1,45 @@
+        Requests: BRUCSI
+              VPG Exeter, Unit 1b Exeter Science Park, Babbage Way
+              Clyst Honiton, Exeter EX5 2FN      Tel: 01392 247914
+
+ Lab No.      1836893                           Request date   /  /     at N/A
+ Microchip No. 977200010486332                  In lab on 04/11/2025 at 10:17
+ Animal name  Poppy (Alphapups Flufftail)       Final Report 13/11/2025 14:12
+ Owner name   WOOLCOCK                        First reported 13/11/2025 at 14:12
+ Species      Canine                           Report Status FINAL REPORT
+ Breed        Havanese
+ Age          1 Year
+ Vet          Mr Richard Bragg
+ Practice     Community Vets {P1004455}
+
+
+                -------------------------------------------------------
+
+                                    SEROLOGY
+Brucella Canis ELISA       Negative
+Brucella canis S/P Ratio   0.442
+Brucella canis SAT         Negative <1/25
+
+                                      CLINICAL COMMENTS
+
+
+When the Brucella SAT and ELISA are used in combination they have an
+estimated combined sensitivity of 90% and a specificity of 99%. The SAT is
+particularly sensitive to IgM antibodies (present in the earlier stages of
+infection) and the ELISA detects IgG (present in more chronic infections). If
+either test is positive, the patient is considered serologically positive.
+If both tests are negative, the patient is considered serologically negative.
+
+For the Brucella ELISA, an S/P cut-off value of 1.47 is used, with values
+greater than or equal to this considered positive and values less than this
+considered negative.
+
+
+Milena Firmanty-Tancock MSc Vet Medicine, FRCPath, MRCVS
+VPG Resident in Veterinary Clinical Pathology
+
+
+
+
+<< End of Lab Data 1836893 >>
+
