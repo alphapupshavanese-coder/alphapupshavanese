@@ -84,6 +84,12 @@ nav ul{display:none}.nav-toggle{display:block}
 .hero h1{font-size:2rem}
 }
 
+/* Hero banner (photo background with cream fade) */
+.hero-banner{background-size:cover;background-position:center 35%;padding:7rem 0;position:relative}
+.hero-banner::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom, rgba(245,240,232,.2), rgba(245,240,232,.92));pointer-events:none}
+.hero-banner .container{position:relative;z-index:1}
+@media(max-width:900px){.hero-banner{padding:4rem 0}}
+
 /* Critiques */
 .critiques { display: flex; flex-direction: column; gap: 2rem; max-width: 780px; }
 .critiques blockquote { margin: 0; padding: 1.25rem 1.5rem; border-left: 3px solid #b8a88a; background: #faf8f5; }
