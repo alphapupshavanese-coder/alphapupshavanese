@@ -95,3 +95,9 @@ nav ul{display:none}.nav-toggle{display:block}
 .critiques blockquote { margin: 0; padding: 1.25rem 1.5rem; border-left: 3px solid #b8a88a; background: #faf8f5; }
 .critiques blockquote p { margin: 0 0 0.75rem; font-style: italic; line-height: 1.7; color: #2c2c2c; }
 .critiques blockquote cite { font-size: 0.85rem; font-style: normal; color: #666; }
+.ped-deep .ped-col{align-self:stretch;justify-content:space-around;gap:.4rem}
+.ped-deep .ped-box{min-width:210px;font-size:.78rem;padding:.45rem .8rem}
+.ped-deep .ped-main{font-size:1rem;padding:1rem 1.25rem;min-width:120px}
+.ped-deep .ped-col:nth-child(n+4) .ped-box{font-size:.72rem}
+.ped-ch{color:#8c3a2b;font-weight:600}
+.ped-note{font-size:.75rem;color:var(--mid);margin-top:1rem}
